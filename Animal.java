@@ -2,11 +2,7 @@ class Animal {
     public static String getDefault(){
         return "Hello";
     }
-<<<<<<< HEAD
-  
-    public static void main(String[] args){
-         
-=======
+
      public static String getBirdValue(){
         return "Tweet";
     }
@@ -22,7 +18,6 @@ class Animal {
         if(args[0].equals("Cat")){
             txt = getCatValue();
         }
->>>>>>> bird
         System.out.println(txt);
     }
 }
